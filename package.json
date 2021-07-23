@@ -1,0 +1,29 @@
+{
+  "name": "firebase-notification",
+  "version": "1.0.0",
+  "description": "This package is used for firebase cloud messaging(push notification) from server side.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev0077/firebase-notification.git"
+  },
+  "keywords": [
+    "firebase",
+    "push-notification",
+    "cloud-messaging",
+    "mulicast-notification",
+    "unicast-notification"
+  ],
+  "author": "Saurabh Y.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dev0077/firebase-notification/issues"
+  },
+  "homepage": "https://github.com/dev0077/firebase-notification#readme",
+  "dependencies": {
+    "firebase-admin": "^9.11.0"
+  }
+}
