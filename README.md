@@ -46,11 +46,11 @@ firebase.initialize(serviceAccount)`
 > `Eg: 
 var multicastData = {
   topic: 'all',
-  notificationImg: 'https://www.misscallpay.com/img/logo.png',
+  notificationImg: 'https://upload.wikimedia.org/wikipedia/commons/c/cb/Foo_was_here.jpg',
   title: "Hello Saurabh",
   body: "now we work on npm package publishing",
-  fcmOptionImg: 'https://www.misscallpay.com/img/logo.png',
-  webpushImg: 'https://www.misscallpay.com/img/logo.png',
+  fcmOptionImg: 'https://upload.wikimedia.org/wikipedia/commons/c/cb/Foo_was_here.jpg',
+  webpushImg: 'https://upload.wikimedia.org/wikipedia/commons/c/cb/Foo_was_here.jpg',
 }`
 
 > `topic` => android app tpoic value and this topic value should same.
@@ -63,11 +63,11 @@ var multicastData = {
 > `Eg: 
 var multicastData = {
   topic: 'all',
-  notificationImg: 'https://www.misscallpay.com/img/logo.png',
+  notificationImg: 'https://upload.wikimedia.org/wikipedia/commons/c/cb/Foo_was_here.jpg',
   title: "Hello Saurabh",
   body: "now we work on npm package publishing",
-  fcmOptionImg: 'https://www.misscallpay.com/img/logo.png',
-  webpushImg: 'https://www.misscallpay.com/img/logo.png',
+  fcmOptionImg: 'https://upload.wikimedia.org/wikipedia/commons/c/cb/Foo_was_here.jpg',
+  webpushImg: 'https://upload.wikimedia.org/wikipedia/commons/c/cb/Foo_was_here.jpg',
 }
 firebase.multicastNotificationwithImg(multicastData, (err, result) => {
   if(err) {
