@@ -1,6 +1,6 @@
 {
   "name": "firebase-notification",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This package is used for firebase cloud messaging(push notification) from server side.",
   "main": "index.js",
   "scripts": {
