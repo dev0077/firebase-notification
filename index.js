@@ -12,6 +12,7 @@ var initialize = (serviceAccount) => {
 var multicastNotificationwithImg = (multicastData, callback) => {
 
 
+
     const message = {
         topic: multicastData.topic,
 
@@ -53,7 +54,7 @@ var multicastNotificationwithImg = (multicastData, callback) => {
 
 }
 
-var multicastNotificationwithoutImg = (multicastData) => {
+var multicastNotificationwithoutImg = (multicastData, callback) => {
     var payload = {
         topic: multicastData.topic,
         "notification": {
@@ -75,7 +76,7 @@ var multicastNotificationwithoutImg = (multicastData) => {
         });
 }
 
-var unicastNotification = (unicastData) => {
+var unicastNotification = (unicastData, callback) => {
 
     // const registrationTokens = ['cCJk2RgoH5M:APA91bEmPh5CpOdx1mJZdVcShxBJNuyB7L5ZBcdxPvikXb7m-gefVMqGETzxaMAMSMvArFaC6c0dZAYwzIKbFwcnVaZ2Y2q06v3j0Q10f_x_bwfjgNR0laQo5u762a1WdplZFIrquJ2','e-_cv01fkHA:APA91bGodpLzdt4iJJOuWxUmCD9Anuz-Xd5rGeIcM3QrfRjCrwANnKd8edcKab_QeUnBcldSKvh3KmWDj1GAjj6YuznbEqIf4VI8Co5XWda91XcbQ0anyWT7uWpbr14HMBcNM8AawxF0'];
 
