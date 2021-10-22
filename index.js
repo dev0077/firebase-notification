@@ -2,10 +2,11 @@ var admin = require("firebase-admin");
 
 
 var initialize = (serviceAccount) => {
-
+    if (!admin.apps.length) {
     admin.initializeApp({
         credential: admin.credential.cert(serviceAccount)
     });
+    }
 }
 
 
